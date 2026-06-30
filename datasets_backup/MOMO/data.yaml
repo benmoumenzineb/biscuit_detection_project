@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['MOMO']
+
+roboflow:
+  workspace: hibas-workspace-c4cwe
+  project: momo-ts1wj
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hibas-workspace-c4cwe/momo-ts1wj/dataset/1

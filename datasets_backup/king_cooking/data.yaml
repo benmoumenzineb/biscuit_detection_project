@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['king-cooking']
+
+roboflow:
+  workspace: hibas-workspace-mt36e
+  project: king_cooking
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hibas-workspace-mt36e/king_cooking/dataset/1

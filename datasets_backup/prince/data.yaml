@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['prince']
+
+roboflow:
+  workspace: hibas-workspace-mt36e
+  project: prince-uznnm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hibas-workspace-mt36e/prince-uznnm/dataset/1

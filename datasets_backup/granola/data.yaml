@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['granola']
+
+roboflow:
+  workspace: hibas-workspace-mt36e
+  project: granola-kogco
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/hibas-workspace-mt36e/granola-kogco/dataset/1

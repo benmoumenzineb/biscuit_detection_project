@@ -1,0 +1,21 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 15
+names:
+  - golden
+  - granola
+  - henry's
+  - king_cooking
+  - kitkat
+  - merendina
+  - MOMO
+  - nooco
+  - oreo
+  - petit_beurre
+  - prince
+  - sable
+  - tagger
+  - tango
+  - tonik
